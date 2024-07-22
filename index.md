@@ -1,9 +1,64 @@
 ---
 layout: default
 ---
-test
+> test
+more test  
+still more test  
+even more test  
 
 end test
+
+# Heading1
+## Heading2
+### Heading3
+#### Heading4
+##### Heading5
+###### Heading6
+
+This is a link to google www.google.com in Github Flavored Markdown
+This is also a [Link to Google](https://www.google.com) in Github Flavored Markdown
+
+Here is one style of REFERENCE link [to mozilla] in Github Flavored Markdown.  Here another style of reference [link to google][yum].  
+
+[yum]: https://www.google.com
+[to mozilla]: https://mozilla.org
+
+![Octocat](https://assets-cdn.github.com/images/icons/emoji/octocat.png "tooltip text")  
+![](thumbnail.png)
+
+This is some `inline code` as it appears in the `Github` editor.  It is the unshifted tilde key
+
+```
+This
+Is
+A
+Multiline
+Code
+Block
+```
+
+```js
+This
+Is
+A
+Multiline
+Code
+Block
+With Syntax Highlighting:
+var showAlert = function() {
+alert('Hello world');
+}
+```
+
+**If you wanted to print two leading and training Asterisk characters to the screen, this will bold your text**  
+\*\* use the single '\\' escape character to NOT bold, and print the characters \*\*
+
+😂
+
+Checklist:
+ - [x] This is complete
+ - [ ] This is Not completed
+ - [x] This is also completed
 
 # Nikola 
 
